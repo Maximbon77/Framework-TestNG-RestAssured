@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.856" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/macbook/Documents/RestAssured/target/test-classes:/Users/macbook/Documents/RestAssured/target/classes:/Users/macbook/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/macbook/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/macbook/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/macbook/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/macbook/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/macbook/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/macbook/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/macbook/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/macbook/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/macbook/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/macbook/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/macbook/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/macbook/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/macbook/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/macbook/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/macbook/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/macbook/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/macbook/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-java/4.8.1/selenium-java-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-api/4.8.1/selenium-api-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.8.1/selenium-chrome-driver-4.8.1.jar:/Users/macbook/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/macbook/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/macbook/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/macbook/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/macbook/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/macbook/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/macbook/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/macbook/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/macbook/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/macbook/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.8.1/selenium-chromium-driver-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-json/4.8.1/selenium-json-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v108/4.8.1/selenium-devtools-v108-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v109/4.8.1/selenium-devtools-v109-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v110/4.8.1/selenium-devtools-v110-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.8.1/selenium-devtools-v85-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.8.1/selenium-edge-driver-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.8.1/selenium-firefox-driver-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-http/4.8.1/selenium-http-4.8.1.jar:/Users/macbook/.m2/repository/dev/failsafe/failsafe/3.3.0/failsafe-3.3.0.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.8.1/selenium-ie-driver-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.8.1/selenium-remote-driver-4.8.1.jar:/Users/macbook/.m2/repository/io/netty/netty-buffer/4.1.87.Final/netty-buffer-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-codec-http/4.1.87.Final/netty-codec-http-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-codec/4.1.87.Final/netty-codec-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-handler/4.1.87.Final/netty-handler-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-common/4.1.87.Final/netty-common-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.87.Final/netty-transport-classes-epoll-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.87.Final/netty-transport-classes-kqueue-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-transport-native-epoll/4.1.87.Final/netty-transport-native-epoll-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.87.Final/netty-transport-native-kqueue-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.87.Final/netty-transport-native-unix-common-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-transport/4.1.87.Final/netty-transport-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-resolver/4.1.87.Final/netty-resolver-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-api/1.22.0/opentelemetry-api-1.22.0.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-context/1.22.0/opentelemetry-context-1.22.0.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.22.0/opentelemetry-exporter-logging-1.22.0.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.22.0/opentelemetry-sdk-metrics-1.22.0.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.22.0-alpha/opentelemetry-sdk-logs-1.22.0-alpha.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.22.0-alpha/opentelemetry-api-logs-1.22.0-alpha.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.22.0/opentelemetry-sdk-common-1.22.0.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.22.0/opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.22.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.22.0/opentelemetry-sdk-trace-1.22.0.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.22.0/opentelemetry-sdk-1.22.0.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.22.0-alpha/opentelemetry-semconv-1.22.0-alpha.jar:/Users/macbook/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/macbook/.m2/repository/net/bytebuddy/byte-buddy/1.12.22/byte-buddy-1.12.22.jar:/Users/macbook/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/macbook/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/macbook/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/macbook/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/macbook/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/macbook/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/macbook/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/macbook/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.8.1/selenium-manager-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.8.1/selenium-safari-driver-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-support/4.8.1/selenium-support-4.8.1.jar:/Users/macbook/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.2/webdrivermanager-5.3.2.jar:/Users/macbook/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/macbook/.m2/repository/com/github/docker-java/docker-java/3.2.14/docker-java-3.2.14.jar:/Users/macbook/.m2/repository/com/github/docker-java/docker-java-core/3.2.14/docker-java-core-3.2.14.jar:/Users/macbook/.m2/repository/com/github/docker-java/docker-java-api/3.2.14/docker-java-api-3.2.14.jar:/Users/macbook/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/macbook/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/macbook/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/macbook/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/macbook/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/macbook/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/macbook/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/macbook/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/macbook/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.14/docker-java-transport-httpclient5-3.2.14.jar:/Users/macbook/.m2/repository/com/github/docker-java/docker-java-transport/3.2.14/docker-java-transport-3.2.14.jar:/Users/macbook/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/macbook/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/macbook/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/macbook/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/macbook/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/macbook/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/macbook/Documents/RestAssured/target/surefire/surefirebooter3885252572735317198.jar /Users/macbook/Documents/RestAssured/target/surefire 2023-03-22T17-29-08_555-jvmRun1 surefire18422150264382563855tmp surefire_02681303184392103162tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/macbook/Documents/RestAssured/target/test-classes:/Users/macbook/Documents/RestAssured/target/classes:/Users/macbook/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/macbook/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/macbook/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/macbook/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/macbook/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/macbook/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/macbook/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/macbook/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/macbook/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/macbook/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/macbook/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/macbook/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/macbook/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/macbook/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/macbook/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/macbook/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/macbook/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/macbook/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-java/4.8.1/selenium-java-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-api/4.8.1/selenium-api-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.8.1/selenium-chrome-driver-4.8.1.jar:/Users/macbook/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/macbook/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/macbook/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/macbook/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/macbook/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/macbook/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/macbook/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/macbook/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/macbook/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/macbook/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.8.1/selenium-chromium-driver-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-json/4.8.1/selenium-json-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v108/4.8.1/selenium-devtools-v108-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v109/4.8.1/selenium-devtools-v109-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v110/4.8.1/selenium-devtools-v110-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.8.1/selenium-devtools-v85-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.8.1/selenium-edge-driver-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.8.1/selenium-firefox-driver-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-http/4.8.1/selenium-http-4.8.1.jar:/Users/macbook/.m2/repository/dev/failsafe/failsafe/3.3.0/failsafe-3.3.0.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.8.1/selenium-ie-driver-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.8.1/selenium-remote-driver-4.8.1.jar:/Users/macbook/.m2/repository/io/netty/netty-buffer/4.1.87.Final/netty-buffer-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-codec-http/4.1.87.Final/netty-codec-http-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-codec/4.1.87.Final/netty-codec-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-handler/4.1.87.Final/netty-handler-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-common/4.1.87.Final/netty-common-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.87.Final/netty-transport-classes-epoll-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.87.Final/netty-transport-classes-kqueue-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-transport-native-epoll/4.1.87.Final/netty-transport-native-epoll-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.87.Final/netty-transport-native-kqueue-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.87.Final/netty-transport-native-unix-common-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-transport/4.1.87.Final/netty-transport-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-resolver/4.1.87.Final/netty-resolver-4.1.87.Final.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-api/1.22.0/opentelemetry-api-1.22.0.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-context/1.22.0/opentelemetry-context-1.22.0.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.22.0/opentelemetry-exporter-logging-1.22.0.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.22.0/opentelemetry-sdk-metrics-1.22.0.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.22.0-alpha/opentelemetry-sdk-logs-1.22.0-alpha.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.22.0-alpha/opentelemetry-api-logs-1.22.0-alpha.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.22.0/opentelemetry-sdk-common-1.22.0.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.22.0/opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.22.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.22.0/opentelemetry-sdk-trace-1.22.0.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.22.0/opentelemetry-sdk-1.22.0.jar:/Users/macbook/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.22.0-alpha/opentelemetry-semconv-1.22.0-alpha.jar:/Users/macbook/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/macbook/.m2/repository/net/bytebuddy/byte-buddy/1.12.22/byte-buddy-1.12.22.jar:/Users/macbook/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/macbook/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/macbook/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/macbook/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/macbook/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/macbook/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/macbook/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/macbook/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/macbook/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.8.1/selenium-manager-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.8.1/selenium-safari-driver-4.8.1.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-support/4.8.1/selenium-support-4.8.1.jar:/Users/macbook/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.2/webdrivermanager-5.3.2.jar:/Users/macbook/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/macbook/.m2/repository/com/github/docker-java/docker-java/3.2.14/docker-java-3.2.14.jar:/Users/macbook/.m2/repository/com/github/docker-java/docker-java-core/3.2.14/docker-java-core-3.2.14.jar:/Users/macbook/.m2/repository/com/github/docker-java/docker-java-api/3.2.14/docker-java-api-3.2.14.jar:/Users/macbook/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/macbook/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/macbook/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/macbook/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/macbook/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/macbook/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/macbook/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/macbook/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/macbook/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.14/docker-java-transport-httpclient5-3.2.14.jar:/Users/macbook/.m2/repository/com/github/docker-java/docker-java-transport/3.2.14/docker-java-transport-3.2.14.jar:/Users/macbook/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/macbook/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/macbook/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/macbook/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/macbook/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/macbook/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/macbook"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/macbook/Documents/RestAssured"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/macbook/Documents/RestAssured/target/surefire/surefirebooter3885252572735317198.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="19.0.2"/>
+    <property name="user.name" value="macbook"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.0.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value="firefox"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/macbook/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/r2/9mvr81_n4w17y20hkxw8rzlw0000gn/T/"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="user.dir" value="/Users/macbook/Documents/RestAssured"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="webdriver.gecko.driver" value="/Users/macbook/.cache/selenium/geckodriver/mac-arm64/0.32.2/geckodriver"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/macbook/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="19.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="KoelTest" classname="IntegrationalTest" time="1.556">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1679520550489	geckodriver	INFO	Listening on 127.0.0.1:10059
+1679520550571	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "42970" "--r ... /[::1]:42970/" "-foreground" "-no-remote" "-profile" "/var/folders/r2/9mvr81_n4w17y20hkxw8rzlw0000gn/T/rust_mozprofile7hj1yW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679520550920	Marionette	INFO	Marionette enabled
+1679520550976	Marionette	INFO	Listening on port 54408
+Read port: 54408
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+WebDriver BiDi listening on ws://127.0.0.1:42970
+1679520551093	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/r2/9mvr81_n4w17y20hkxw8rzlw0000gn/T/rust_mozprofile7hj1yW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:42970/devtools/browser/b6b4020a-e1b0-4997-9e5f-13fe4465965d
+1679520554133	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:54457
+1679520554141	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1679520554156	Marionette	INFO	Stopped listening on port 54408
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/moduleJas/vAsayncShutdown.sysS.mjs:cr52ip3:2t 6er
+raoddrB:l ocrekesro@resuorurcec:e:////ggrer/em/omdoudluelse/sA/sAysncyShnutcdSohwutnd.oswyns..smjyss:4.5m8j:15s
+,s leitnupeSh ut7d2o7w:n @Errersooru:r cPeh:a/s/gere /"mopdrouflielse/-obsefifloer/oes-fcihlaeng_ea"sy nci_fsr ofnitn.ijsshmed, i:1t5 4i8s:2 too late to register completion condit8ion "
+OS.File: f@lush Ir/O queueed sbefoore uprofirleBefocreChean:ge"
+J/ava/Scgriprt ereror/: resmourcoe://gdre/moudulesl/AsynecShutdown.sys.mjss, lin/e 72o7: Esrror:f Phaise "lprofiele-be/fore-ochasngef" is ifinlished,e it i_s taoo laste tyo regnistecr comp_frolnetiotn co.nditijon s"OSm.File:: flu1sh 5I/6O qu8eue:d 1bef6ore
+ pr@oresourfce:/i/gre/mlodulees/oBsfilee.jsm:f12:3o0
+@rresourcee://grCe/mohdules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPaings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/tnhis._deglayedIneitTas"k<@re
+souJavaSrce:/c/grer/moduiles/Tpelemtet ryConterollerPrarernt.syos.mjsr:828::36 
+obsrervee@resosuorce://greu/modrulecs/AesyncSh:utdo/wn.s/ys.mjsg:576:r16
+e
+cons/ole.ermror:o "TedlemetruyScheldulere.shutdoswn - /AlreAsyncShutdady shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting foor piwnng .tsayssk.
+m j s ,   l i n e   7P2ha7: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/Asysen:c STheultedmoewtnry.Csoynst.rmojlsl,e r: Wlianiet i7n2g 7:f oErr rpoern:di nPgh ping aascet i"vprofile-ity
+     b  e f ore- chaSnge"t is faite: (none)
+nisWhAedRN, Iit Nis Gtoo :late  to rEegisrter crompletoiorn cond:it ioPn "hOS.Filae: fslush eI/O qu eue"d befpore prrofoileBfeforeiChalnge"e
+Jav-aScrbipte error:f reosourrce://gre/modules/AsyncShutdown.syse.mj-s, lcine h727a: nError:g Phase e"prof"ile-b efiore-schang e" fis fiininshed,i ist ish too elatde t,o reg istier t is ctompleotion ocon dition l"OS.aFilte: fluesh I/ O quteueod befo re prrofeileBgefoireChsangte"
+JeavarScript  errorc: resoourcem://pservlieces-stetitinogs/Utnils. jscm, oline 2n37:d TyipeError:t NeitworkEorrorn:  Ne"twork OrequSest. faFiled
+ile: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 237))
+]]></system-err>
+  </testcase>
+</testsuite>
