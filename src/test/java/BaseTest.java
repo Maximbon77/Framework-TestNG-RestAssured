@@ -4,23 +4,30 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import java.time.Duration;
 
+import static java.sql.DriverManager.getDriver;
+
 public class BaseTest {
     WebDriver driver;
-
+    WebDriverWait wait;
+    Actions actions;
+    String url;
+/*
     @BeforeMethod
     public void browserSetUp() {
         driver = pickBrowser(System.getProperty("browser"));
-
 //        WebDriverManager.chromedriver().setup();
 //        ChromeOptions options = new ChromeOptions();
 //        options.addArguments("--remote-allow-origins=*");
 //        WebDriver driver = new ChromeDriver(options);
+
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
@@ -41,4 +48,6 @@ public class BaseTest {
                 return driver = new ChromeDriver();
         }
     }
+
+ */
 }
